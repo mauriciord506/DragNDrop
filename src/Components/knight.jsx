@@ -1,7 +1,7 @@
-import React from './node_modules/react';
+import React from "react";
 
 const Knight = () => {
-    return <span>♘</span>
-}
+  return <span className="knight">♘</span>;
+};
 
-export default Knight
+export default Knight;

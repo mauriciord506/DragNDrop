@@ -1,8 +1,17 @@
-html, body,#root {
+html,
+body,
+#root,
+#root > div {
   height: 100%;
 }
 
 .square {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.knight {
+  font-size: 2em;
 }

@@ -1,14 +1,9 @@
-import React from 'react';
-import Square from "./Components/Square.jsx";
-import Knight from "./Components/knight.jsx";
-import './App.css';
+import React from "react";
+import Board from "./Components/Board";
+import "./App.css";
 
 function App() {
-  return (
-    <Square color={true}>
-    <Knight/>
-    </Square>
-  );
+  return <Board KnightPosition={[3, 4]} />;
 }
 
 export default App;
